@@ -2,6 +2,7 @@
 @use "./components/infos_bar";
 @use "./components/buttons";
 @use "./event";
+@use "./variable";
 
 * {
     margin: 0;
@@ -10,7 +11,7 @@
     list-style: none;
     text-decoration: none;
     font-family: Roboto, sans-serif;
-    color: #fff;
+    color: variable.$primaryTextColorWhite;
 }
 
 .container {
